@@ -25,7 +25,7 @@ def main():
     parser.add_argument("-q", "--quiet", action="store_true", help="安静模式，只显示超时和错误")
     parser.add_argument("-v", "--verbose", action="store_true", help="详细模式，逐行显示延迟时间")
     parser.add_argument("-n", "--count", type=int, default=0, help="次数(0=无限)")
-    parser.add_argument("-t", "--threshold", type=int, default=0, help="延迟阈值ms")
+    parser.add_argument("-t", "--threshold", type=int, default=1000, help="延迟阈值(默认1000ms)")
     args = parser.parse_args()
 
     print("Cursor 网络监测")
