@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+@start "" /b python -x "%~f0" %* & exit /b
 """Cursor 网络监测"""
 
 import httpx

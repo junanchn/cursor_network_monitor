@@ -11,7 +11,7 @@ pip install httpx[http2]
 ## 使用
 
 ```bash
-python cursor_network_monitor.py
+cursor_network_monitor
 ```
 
 ## 参数
@@ -27,10 +27,10 @@ python cursor_network_monitor.py
 
 ```bash
 # 持续监测，实时显示
-python cursor_network_monitor.py
+cursor_network_monitor
 
 # 持续监测，超过 500ms 警告
-python cursor_network_monitor.py -t 500
+cursor_network_monitor -t 500
 ```
 
 ## 输出
